@@ -35,10 +35,7 @@
         "illuminate/support": "^7.0|^8.40|^9.0|^10.0",
         "spatie/laravel-translatable": "^4.6|^5.0|^6.0",
         "slowprog/composer-copy-file": "^0.3",
-        "components/flag-icon-css": "^3.5.0",
-        "umpirsky/country-list": "^2.0.6",
-        "umpirsky/language-list": "^v1.1",
-        "umpirsky/currency-list": "^v1.1.1"
+        "components/flag-icon-css": "^3.5.0"
     },
     "require-dev": {
         "orchestra/testbench": "^5.0|^6.0|^7.0",
@@ -76,10 +73,7 @@
             ]
         },
         "copy-file": {
-            "./vendor/components/flag-icon-css/flags": "data/flags/",
-            "./vendor/umpirsky/country-list/data/#\\.php$": "data/translations/countries/",
-            "./vendor/umpirsky/language-list/data/#\\.php$": "data/translations/languages/",
-            "./vendor/umpirsky/currency-list/data/#\\.php$": "data/translations/currencies/"
+            "./vendor/components/flag-icon-css/flags": "data/flags/"
         }
     },
     "minimum-stability": "dev",
